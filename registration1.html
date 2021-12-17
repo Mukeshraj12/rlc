@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="regist.css">
+</head>
+<body>
+<h1 align="center">Registration Form</h1>
+<table align="center">
+<form action="login.html" method="post" onsubmit="return valid()">
+<tr>
+<td><label>Name</label></td>
+<td><input type="text" id="bx1" placeholder="Enter name" autofocus></td>
+<span id="er1"></span>
+</tr>
+<tr>
+<td><label>Father Name</label></td>
+<td><input type="text" id="bx2" placeholder="Father's name"></td>
+<span id="er2"></span>
+</tr>
+<tr>
+<td><label>Postal Address</label></td>
+<td><input type="text" id="bx2" placeholder="Current Address"></td>
+<span id="er3"></span>
+</tr>
+<tr>
+<td><label>Permenent Address</label></td>
+<td><input type="text" id="bx2" placeholder="Permenent Address"></td>
+<span id="er4"></span>
+</tr>
+<tr>
+<td><label>Gender</label></td>
+<td><input type="radio" name="gender">male
+<input type="radio" name="gender">female</td>
+<span id="er5"></span>
+</tr>
+<tr>
+<td><label>City</label></td>
+<td><select><option>Select city
+<option>chennai
+<option>Tirunelveli
+<option>Papanasam</td>
+</tr>
+<tr>
+<td><label>PIN Code</label></td>
+<td><input type="text" id="bx2"></td>
+<span id="er6"></span>
+</tr>
+<tr>
+<td><input type="Reset"></td>
+<td><input type="submit"></td>
+</tr>
+</form>
+<script src="validation.js"></script>
+</table>
+</body>
+</html>
